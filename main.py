@@ -17,7 +17,7 @@ def main():
     while True:
         updates = check_updates(config["urls"], sent_news)
         for update in updates:
-            text = f"🆕 Новость с {update['source']}
+            text = f"🆕 Новость с {update['source']}"
 📌 {update['title']}
 📅 {update['date']}
 🔗 {update['link']}"
